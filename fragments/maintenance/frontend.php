@@ -1,11 +1,13 @@
 <?php
     $maintenanceFrontendHeadline = rex_config::get('maintenance', 'maintenance_frontend_headline', 'Maintenance / Wartung');
+    $maintenanceFrontendUpdateIntervalNumber = rex_config::get('maintenance', 'maintenance_frontend_update_interval', 60);
 ?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="refresh" content="<?= $maintenanceFrontendUpdateIntervalNumber > 0 ? $maintenanceFrontendUpdateIntervalNumber : '' ?>">
     <title><?= rex::getServerName() ?> - Maintenance</title>
     <link rel="stylesheet" href="<?= rex_url::addonAssets('maintenance', 'css/maintenance-frontend.css') ?>" />
 </head>
