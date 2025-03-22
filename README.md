@@ -1,6 +1,6 @@
 # Wartungsmodus (Maintenance mode) für REDAXO 5.x
 
-![Screenshot](https://raw.githubusercontent.com/FriendsOfREDAXO/maintenance/assets/Maintenance.png)
+![Screenshot](https://raw.githubusercontent.com/FriendsOfREDAXO/maintenance/assets/maintenance-3.png)
 
 Das AddOn ermöglicht es Administratoren, das Frontend und/oder des Backend von REDAXO für Besucher und/oder Redakteure zu sperren. Zum Beispiel bei Wartungsarbeiten oder in der Entwicklungsphase.
 
@@ -91,6 +91,7 @@ php redaxo/bin/console maintenance:mode off
 
 * [Alexander Walther](https://github.com/alxndr-w)
 * [KLXM Crossmedia / Thomas Skerbis](https://klxm.de)
+* [Simon Krull](https://github.com/crydotsnake)
 
 ## Credits
 
